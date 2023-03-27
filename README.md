@@ -238,6 +238,9 @@ In dieser Aufgabe soll in einer Variablen das Ergebnis einer Funktion gespeicher
 - Erstelle nun in der main-Funktion eine neue Variable in der du das Ergebnis aus der Funktion speicherst
 - Gebe diese im Anschluss in einem print-Statement aus
 
+**Modul für die Aufgabe:** *Aufgabe6*  
+**Datei für die Aufgabe:** *Aufgabe6.kt*
+
 </details>
 
 ---
