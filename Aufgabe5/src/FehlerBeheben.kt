@@ -12,6 +12,7 @@ subtrahieren(): Int {
     return zahl1 - zahl2
 }
 
+
 fun dividieren(): Int {
     var zahl1: Int = 70
     var zahl2: Int = 10

@@ -88,23 +88,8 @@ fun main() {
 <details>
 <summary><b>Aufgabe 2 - Funktion + Rückgabewert implementieren und aufrufen </b></summary>
 
-In dieser Aufgabe erstellen wir Schritt für Schritt eine Funktion.
-Führe die gegebenen Teilaufgaben durch:
-
-- Schreibe das Keyword für Funktionen <class style="color:#ff8800">fun</class>.
-- Nenne deine Funktion <class style="color:#FFFFFF">zehnfach</class>.
-- Schreibe hinter dem Namen der Funktion eine öffnende und eine schließende Klammer.
-- Schreibe nach den Klammern ein Doppelpunkt und den Typ der Rückgabe. Hier ist der Typ Int.
-- Öffne den Körper der Funktion mit einer öffnenden, geschwungenen Klammer und schließe ihn 
-mit einer schließenden, geschwungenen Klammer.
-- Lege im Körper eine Variable mit dem Namen <class style="color:#FFFFFF">zahl</class>, 
-vom Typ Int an und weise ihr den Wert 3 zu.
-- Berechne im Körper das Zehnfache deiner Zahl, weise das Ergebnis einer neuen Variable 
-mit dem Namen <class style="color:#FFFFFF">ergebnis</class> zu.
-- Schreibe das Schlüsselwort <class style="color:#ff8800">return</class>.
-- schreibe direkt nach return den Variablennamen <class style="color:#FFFFFF">ergebnis</class>.
-- Rufe deine Funktion <class style="color:#FFFFFF">zehnfach()</class> in der Main-Funktion auf
-und gib das Ergebnis in der Konsole aus.
+- Schreibe eine Funktion ``zehnfach``, die das zehnfache einer vom Nutzer eingelesenen Zahl zurückgeben soll.
+- Gebe den Rückgabewert in einem print-Statement in der main Funktion aus
 
 **Modul für die Aufgabe:** *Aufgabe2*  
 **Datei für die Aufgabe:** *ReturnImplementieren.kt*
@@ -206,8 +191,8 @@ Wir bauen uns eine kleine Videothek.
 "Star Wars", "Shrek", "Toy Story"  
 Das sind unsere Filme.
 - Gebe dann in der Funktion eine Begrüßung und die Filme in der Konsole aus.  
-Frage dann den Nutzer, welchen Film er ausleihen möchte.
-- Nimm dann eine Eingabe über die Konsole entgegen, die Eingabe ist ein Index für die Liste an Filmen. 
+- Frage dann den Nutzer, welchen Film er ausleihen möchte.
+- Nimm dann eine Eingabe über die Konsole entgegen. Die Eingabe ist ein Index für die Liste an Filmen. 
 (Also ein Integer zwischen 0 und 2).
 - Gib dann den Film für den eingegebenen Index zurück.
 
@@ -243,11 +228,10 @@ Die Katze ist über die Tastatur gelaufen und hat den Code kaput gemacht.
 
 ---
 
+<details>
+<summary><b>Aufgabe 6 - verschachtelte Funktionen </b></summary>
+
+
+</details>
+
 ---
-
-
-
-
-
-
-
