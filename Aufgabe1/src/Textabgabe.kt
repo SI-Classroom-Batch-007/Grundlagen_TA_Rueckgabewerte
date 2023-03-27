@@ -3,5 +3,5 @@
 // Teilaufgabe c)
 
 fun main() {
-
+    
 }

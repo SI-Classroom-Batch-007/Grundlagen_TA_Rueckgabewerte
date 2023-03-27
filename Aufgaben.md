@@ -229,8 +229,14 @@ Die Katze ist über die Tastatur gelaufen und hat den Code kaput gemacht.
 ---
 
 <details>
-<summary><b>Aufgabe 6 - verschachtelte Funktionen </b></summary>
+<summary><b>Aufgabe 6 - Variablen Funktionen zuweisen </b></summary>
 
+In dieser Aufgabe soll in einer Variablen das Ergebnis einer Funktion gespeichert werden
+
+- Erstelle eine Funktion, die als Rückgabewert die Fläche eines Kreises zurückgibt. (3.14*r^2)
+- Die Variable ``r`` soll dabei innerhalb der Funktion vom Nutzer eingelesen werden
+- Erstelle nun in der main-Funktion eine neue Variable in der du das Ergebnis aus der Funktion speicherst
+- Gebe diese im Anschluss in einem print-Statement aus
 
 </details>
 
