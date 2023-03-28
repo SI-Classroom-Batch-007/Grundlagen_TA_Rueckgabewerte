@@ -26,14 +26,14 @@ a)
 - Schau dir den nachfolgenden Code an und beschreibe kurz in eigenen Worten, was hier passiert.
 
 ```
-fun subtrahieren(): Int {
-    var zahl1 = 28
-    var zahl2 = 13
-    return zahl1 - zahl2
+fun sub(): Int {
+    var number1 = 28
+    var number2 = 13
+    return number1 - number2
 }
 
 fun main() {ㅤㅤ
-    println(subtrahieren())
+    println(sub())
 }
 
 ```
@@ -44,14 +44,14 @@ b)
 
 ```
 
-fun lieblingsFarbe(): String {
-    val farben: List<String> = listOf("Rot", "Blau", "Gelb", "Grün", "Lila", "Pink")
-    var meineFarbe: String = farben[farben.size-4]
-    return meineFarbe
+fun favoriteColor(): String {
+    val colors: List<String> = listOf("Rot", "Blau", "Gelb", "Grün", "Lila", "Pink")
+    var myColor: String = colors[colors.size-4]
+    return myColor
 }
 
 fun main() {
-    println(lieblingsFarbe())
+    println(favoriteColor())
 }
 
 ```
@@ -61,17 +61,17 @@ c)
 Schau dir den nachfolgenden Code an und schreibe auf in welcher Reihenfolge die Zeilen abgearbeitet werden.
 
 ```
-1 fun ersteZahl(): Int {
+1 fun firstNumber(): Int {
 2     return (20 - 18) * 6
 3 }
 
-4 fun zweiteZahl(): Int {
+4 fun secondNumber(): Int {
 5     return 25 / 5 
 6 }
 
 7 fun main() {
-8     val ergebnis = ersteZahl() * zweiteZahl()
-9     println(ergebnis)
+8     val result = firstNumber() * secondNumber()
+9     println(result)
 10 }
 ```
 
@@ -85,7 +85,7 @@ Schau dir den nachfolgenden Code an und schreibe auf in welcher Reihenfolge die 
 <details>
 <summary><b>Aufgabe 2 - Funktion + Rückgabewert implementieren und aufrufen </b></summary>
 
-- Schreibe eine Funktion ``zehnfach``, die das zehnfache einer vom Nutzer eingelesenen Zahl zurückgeben soll.
+- Schreibe eine Funktion ``tenTimes``, die das zehnfache einer vom Nutzer eingelesenen Zahl zurückgeben soll.
 - Gebe den Rückgabewert in einem print-Statement in der main Funktion aus
 
 **Modul für die Aufgabe:** *Aufgabe2*  
@@ -108,10 +108,10 @@ Ein Beispiel:
 ```
 
 fun main() {
-    println(eineFunktion())
+    println(aFunction())
 }
 
-fun eineFunktion(): String {
+fun aFunction(): String {
     return "Das ist eine Funktion!"
 }
 
