@@ -23,7 +23,7 @@
 In dieser Aufgabe sind Codeausschnitte gegeben und du sollst beschreiben, was diese tun.
 Schreibe die Lösung in den Kommentar in der Datei.
 a)
-- Schau dir den nachfolgenden Code an und beschreibe kurz in eigenen Worten, was hier passiert.
+- Schaue dir den nachfolgenden Code an und beschreibe kurz in eigenen Worten, was hier passiert.
 
 ```
 fun sub(): Int {
@@ -40,7 +40,7 @@ fun main() {ㅤㅤ
 
 b)
 
-- Schau dir den nachfolgenden Code an und beschreibe kurz in eigenen Worten, was hier passiert.
+- Schaue dir den nachfolgenden Code an und beschreibe kurz in eigenen Worten, was hier passiert.
 
 ```
 
@@ -58,7 +58,7 @@ fun main() {
 
 c)
 
-Schau dir den nachfolgenden Code an und schreibe auf in welcher Reihenfolge die Zeilen abgearbeitet werden.
+Schaue dir den nachfolgenden Code an und schreibe auf in welcher Reihenfolge die Zeilen abgearbeitet werden.
 
 ```
 1 fun firstNumber(): Int {
@@ -85,8 +85,19 @@ Schau dir den nachfolgenden Code an und schreibe auf in welcher Reihenfolge die 
 <details>
 <summary><b>Aufgabe 2 - Funktion + Rückgabewert implementieren und aufrufen </b></summary>
 
+a)
 - Schreibe eine Funktion ``tenTimes``, die das zehnfache einer vom Nutzer eingelesenen Zahl zurückgeben soll.
 - Gebe den Rückgabewert in einem print-Statement in der main Funktion aus
+
+
+b)
+- Schreibe eine Funktion mit dem Namen <i>dreifacherWert</i>.
+- Lege in der Funktion eine Variable vom Typ Int mit dem Wert 12 an.
+- Verdreifache den Wert der Variable und gib sie zurück.
+
+Rufe dann die Funktion in der main() Funktion, wie in den vorherigen Teilaufgaben, auf
+und gib das Ergebnis in der Konsole aus.  
+Ist das Ergebnis 36?
 
 **Modul für die Aufgabe:** *Aufgabe2*  
 **Datei für die Aufgabe:** *ReturnImplementieren.kt*
@@ -171,20 +182,6 @@ f)
 <details>
 <summary><b>Aufgabe 4 - Funktionen entwerfen II </b></summary>
 
-Hier üben wir das Erstellen von Funktionen weiter.
-
-a)
-
-- Schreibe eine Funktion mit dem Namen <i>dreifacherWert</i>.
-- Lege in der Funktion eine Variable vom Typ Int mit dem Wert 12 an.
-- Verdreifache den Wert der Variable und gib sie zurück.
-
-Rufe dann die Funktion in der main() Funktion, wie in den vorherigen Teilaufgaben, auf
-und gib das Ergebnis in der Konsole aus.  
-Ist das Ergebnis 36?
-
-b)
-
 Wir bauen uns eine kleine Videothek.
 
 - Schreibe eine Funktion mit einem beliebigen aber passenden Namen.
@@ -197,7 +194,7 @@ Das sind unsere Filme.
 (Also ein Integer zwischen 0 und 2).
 - Gib dann den Film für den eingegebenen Index zurück.
 
-Rufe dann die Funktion in der main() Funktion, wie in den vorherigen Teilaufgaben, auf
+Rufe dann die Funktion in der main() Funktion auf
 und gib das Ergebnis in der Konsole aus.
 
 
