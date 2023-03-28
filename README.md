@@ -18,15 +18,12 @@
 ---
 
 <details>
-<summary><b>Aufgabe 1 - Rückgabewert vorhersagen </b></summary>
+<summary><b>Aufgabe 1 - Was passiert hier? </b></summary>
 
-In dieser Aufgabe sind Codeausschnitte gegeben und du sollst vorhersagen, 
-was für ein Wert in der Konsole ausgegeben wird.
-Schreibe die Lösung in den Kommentar in der Datei, 
-füge dann den Codeausschnitt hinzu und überprüfe dein Ergebnis.
-
+In dieser Aufgabe sind Codeausschnitte gegeben und du sollst beschreiben, was diese tun.
+Schreibe die Lösung in den Kommentar in der Datei.
 a)
-- Schau dir den nachfolgenden Code an und überlege wie die Ausgabe des Codes aussieht.
+- Schau dir den nachfolgenden Code an und beschreibe kurz in eigenen Worten, was hier passiert.
 
 ```
 fun subtrahieren(): Int {
@@ -43,7 +40,7 @@ fun main() {ㅤㅤ
 
 b)
 
-- Schau dir den nachfolgenden Code an und überlege wie die Ausgabe des Codes aussieht.
+- Schau dir den nachfolgenden Code an und beschreibe kurz in eigenen Worten, was hier passiert.
 
 ```
 
@@ -61,21 +58,21 @@ fun main() {
 
 c)
 
-Schau dir den nachfolgenden Code an und überlege wie die Ausgabe des Codes aussieht.
+Schau dir den nachfolgenden Code an und schreibe auf in welcher Reihenfolge die Zeilen abgearbeitet werden.
 
 ```
-fun ersteZahl(): Int {
-    return (20 - 18) * 6
-}
+1 fun ersteZahl(): Int {
+2     return (20 - 18) * 6
+3 }
 
-fun zweiteZahl(): Int {
-    return 25 / 5 
-}
+4 fun zweiteZahl(): Int {
+5     return 25 / 5 
+6 }
 
-fun main() {
-    val ergebnis = ersteZahl() * zweiteZahl()
-    println(ergebnis)
-}
+7 fun main() {
+8     val ergebnis = ersteZahl() * zweiteZahl()
+9     println(ergebnis)
+10 }
 ```
 
 **Modul für die Aufgabe:** *Aufgabe1*  
@@ -122,20 +119,24 @@ fun eineFunktion(): String {
 
 a)
 
-Schreibe eine Funktion mit passendem Rückgabewert, die 5 zurückgibt. 
+- Schreibe eine Funktion, die das Ergebnis einer Addition zweier beliebiger Zahlen zurückgibt.
 
 b)
 
-Schreibe eine Funktion mit passendem Rückgabewert, die 6.234 zurückgibt.
+- Schreibe eine Funktion, die eine Umrechnung von Euro in Dollar ermöglicht.
+- Lese dafür eine Nutzereingabe ein und wandle diese in die gewünschte Währung um
+- Die Funktion soll das Ergebnis zurückgeben
+- Hinweis: 1€ entspricht 1.08$
 
 c)
 
-Schreibe eine Funktion mit passendem Rückgabewert, die "Hallo" zurückgibt.
+- Schreibe eine Funktion, in der du den Nutzer auf der Konsole begrüßt 
+- Gebe die Funktion in einem print-Statement in der main-Funktion aus
 
 d)
 
-Schreibe eine Funktion, die eine Liste vom Typ String zurückgibt.
-Die Liste ist dabei initial (also zu Begin) mit folgenden Werten gefüllt:
+- Schreibe eine Funktion, die eine Liste vom Typ String zurückgibt.
+- Die Liste ist dabei initial (also zu Begin) mit folgenden Werten gefüllt:
 
 ```
 
@@ -145,9 +146,9 @@ Die Liste ist dabei initial (also zu Begin) mit folgenden Werten gefüllt:
 
 e)
 
-Schreibe eine Funktion, die eine MutableMap zurückgibt.
-Der Key der MutableMap ist vom Typ String, der Wert der MutableMap ist vom Typ Boolean.
-Die MutableMap ist dabei initial (also zu Begin) mit folgenden Paaren gefüllt:
+- Schreibe eine Funktion, die eine MutableMap zurückgibt.
+- Der Key der MutableMap ist vom Typ String, der Wert der MutableMap ist vom Typ Boolean.
+- Die MutableMap ist dabei initial (also zu Beginn) mit folgenden Paaren gefüllt:
 
 ```
 
@@ -158,7 +159,7 @@ Die MutableMap ist dabei initial (also zu Begin) mit folgenden Paaren gefüllt:
 
 f)
 
-Schreibe eine Funktion, die nichts zurückgibt.
+- Schreibe eine Funktion, die ein print-Statement ausgibt, jedoch keinen Rückgabewert hat
 
 **Modul für die Aufgabe:** *Aufgabe3*  
 **Datei für die Aufgabe:** *FunktionenEntwerfen.kt*
@@ -186,7 +187,7 @@ b)
 
 Wir bauen uns eine kleine Videothek.
 
-- Schreibe eine Funktion mit einem beliebigen Namen.
+- Schreibe eine Funktion mit einem beliebigen aber passenden Namen.
 - Lege in der Funktion eine Liste vom Typ String an, die Liste soll initial folgende Werte besitzen:  
 "Star Wars", "Shrek", "Toy Story"  
 Das sind unsere Filme.
@@ -205,7 +206,7 @@ c)
 Die letzte Aufgabe ist etwas kreativer, wir bauen eine Funktion, die einen Würfelwurf simuliert.
 
 - Erstelle eine Funktion, die einen Würfelwurf simuliert.
-D.h. die Funktion gibt mit gleicher Wahrscheinlichkeit einen Integer zwischen 1 und 6 aus.
+D.h. die Funktion gibt zufällig einen Integer zwischen 1 und 6 zurück.
 
 **Modul für die Aufgabe:** *Aufgabe4*  
 **Datei für die Aufgabe:** *WeitereFunktionenEntwerfen.kt*
