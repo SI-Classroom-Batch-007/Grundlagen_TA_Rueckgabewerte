@@ -87,7 +87,7 @@ Schaue dir den nachfolgenden Code an und schreibe auf in welcher Reihenfolge die
 
 a)
 - Schreibe eine Funktion ``tenTimes``, die das zehnfache einer vom Nutzer eingelesenen Zahl zurückgeben soll.
-- Gebe den Rückgabewert in einem print-Statement in der main Funktion aus
+- Gib den Rückgabewert in einem print-Statement in der main Funktion aus
 
 
 b)
