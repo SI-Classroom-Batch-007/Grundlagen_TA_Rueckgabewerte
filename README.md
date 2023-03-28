@@ -83,7 +83,21 @@ Schaue dir den nachfolgenden Code an und schreibe auf in welcher Reihenfolge die
 ---
 
 <details>
-<summary><b>Aufgabe 2 - Funktion + Rückgabewert implementieren und aufrufen </b></summary>
+<summary><b>Aufgabe 2 - Fehler beheben </b></summary>
+
+Die Katze ist über die Tastatur gelaufen und hat den Code kaput gemacht.
+
+- Korrigiere die Fehler in der Datei.
+
+**Modul für die Aufgabe:** *Aufgabe2*  
+**Datei für die Aufgabe:** *FehlerBeheben.kt*
+
+</details>
+
+---
+
+<details>
+<summary><b>Aufgabe 3 - Funktion + Rückgabewert implementieren und aufrufen </b></summary>
 
 a)
 - Schreibe eine Funktion ``tenTimes``, die das zehnfache einer vom Nutzer eingelesenen Zahl zurückgeben soll.
@@ -99,7 +113,7 @@ Rufe dann die Funktion in der main() Funktion, wie in den vorherigen Teilaufgabe
 und gib das Ergebnis in der Konsole aus.  
 Ist das Ergebnis 36?
 
-**Modul für die Aufgabe:** *Aufgabe2*  
+**Modul für die Aufgabe:** *Aufgabe3*  
 **Datei für die Aufgabe:** *ReturnImplementieren.kt*
 
 </details>
@@ -107,7 +121,7 @@ Ist das Ergebnis 36?
 ---
 
 <details>
-<summary><b>Aufgabe 3 - Funktionen entwerfen I </b></summary>
+<summary><b>Aufgabe 4 - Funktionen entwerfen I </b></summary>
 
 In dieser Aufgabe sollst du ein paar Funktionen entwerfen, um etwas Übung zu bekommen.
 Achte dabei auf den richtigen Rückgabewert. 
@@ -172,7 +186,7 @@ f)
 
 - Schreibe eine Funktion, die ein print-Statement ausgibt, jedoch keinen Rückgabewert hat
 
-**Modul für die Aufgabe:** *Aufgabe3*  
+**Modul für die Aufgabe:** *Aufgabe4*  
 **Datei für die Aufgabe:** *FunktionenEntwerfen.kt*
 
 </details>
@@ -180,7 +194,7 @@ f)
 ---
 
 <details>
-<summary><b>Aufgabe 4 - Funktionen entwerfen II </b></summary>
+<summary><b>Aufgabe 5 - Funktionen entwerfen II </b></summary>
 
 Wir bauen uns eine kleine Videothek.
 
@@ -205,22 +219,8 @@ Die letzte Aufgabe ist etwas kreativer, wir bauen eine Funktion, die einen Würf
 - Erstelle eine Funktion, die einen Würfelwurf simuliert.
 D.h. die Funktion gibt zufällig einen Integer zwischen 1 und 6 zurück.
 
-**Modul für die Aufgabe:** *Aufgabe4*  
-**Datei für die Aufgabe:** *WeitereFunktionenEntwerfen.kt*
-
-</details>
-
----
-
-<details>
-<summary><b>Aufgabe 5 - Fehler beheben </b></summary>
-
-Die Katze ist über die Tastatur gelaufen und hat den Code kaput gemacht.
-
-- Korrigiere die Fehler in der Datei.
-
 **Modul für die Aufgabe:** *Aufgabe5*  
-**Datei für die Aufgabe:** *FehlerBeheben.kt*
+**Datei für die Aufgabe:** *WeitereFunktionenEntwerfen.kt*
 
 </details>
 
